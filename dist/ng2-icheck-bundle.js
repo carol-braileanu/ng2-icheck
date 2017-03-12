@@ -25,7 +25,6 @@ System.register("ng2-icheck.component", ['@angular/core'], function(exports_1, c
                     core_1.Component({
                         selector: '[iCheck]',
                         templateUrl: './ng2-icheck.html',
-                        styleUrls: ['./ng2-icheck.css']
                     }), 
                     __metadata('design:paramtypes', [])
                 ], ICheckComponent);

@@ -7,7 +7,6 @@ var ICheckComponent = (function () {
         { type: core_1.Component, args: [{
                     selector: '[iCheck]',
                     templateUrl: './ng2-icheck.html',
-                    styleUrls: ['./ng2-icheck.css']
                 },] },
     ];
     /** @nocollapse */

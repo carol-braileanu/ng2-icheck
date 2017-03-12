@@ -1,19 +1,19 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {HighlightDirective} from './ng2-icheck.directive';
+import {ICheckComponent} from './ng2-icheck.component';
 
-export {HighlightDirective} from './ng2-icheck.directive';
+export {ICheckComponent} from './ng2-icheck.component';
 
 @NgModule({
   imports: [CommonModule],
   declarations: [
-    HighlightDirective,
+    ICheckComponent,
   ],
   providers: [
 
   ],
   exports: [
-    HighlightDirective
+    ICheckComponent
   ]
 })
 export class Ng2ICheckModule {}

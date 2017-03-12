@@ -1,20 +1,18 @@
-body {
+:host {
   font-family: "Consolas", "Microsoft YaHei", Arial, arial, sans-serif;
-}
-.angular-icheck {
   overflow: hidden;
 }
-.angular-icheck .checkbox {
+:host .checkbox {
   width: 22px;
   height: 22px;
   display: inline-block;
   vertical-align: middle;
-  background: url('angular-icheck.png') no-repeat left;
+  background: url('ng2-icheck.png') no-repeat left;
 }
-.angular-icheck .checkbox.checked {
+:host .checkbox.checked {
   background-position: -48px 0;
 }
-.angular-icheck .label {
+:host .label {
   display: inline-block;
   vertical-align: middle;
 }

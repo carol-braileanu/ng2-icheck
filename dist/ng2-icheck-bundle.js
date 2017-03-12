@@ -7,37 +7,39 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-System.register("ng2-icheck.directive", ['@angular/core'], function(exports_1, context_1) {
+System.register("ng2-icheck.component", ['@angular/core'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var core_1;
-    var HighlightDirective;
+    var ICheckComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            HighlightDirective = (function () {
-                function HighlightDirective(el) {
-                    el.nativeElement.style.backgroundColor = 'yellow';
+            ICheckComponent = (function () {
+                function ICheckComponent() {
                 }
-                HighlightDirective = __decorate([
-                    core_1.Directive({
-                        selector: '[myHighlight]'
+                ICheckComponent = __decorate([
+                    core_1.Component({
+                        moduleId: module.id,
+                        selector: '[iCheck]',
+                        templateUrl: './ng2-icheck.html',
+                        styleUrls: ['./ng2-icheck.css']
                     }), 
-                    __metadata('design:paramtypes', [core_1.ElementRef])
-                ], HighlightDirective);
-                return HighlightDirective;
+                    __metadata('design:paramtypes', [])
+                ], ICheckComponent);
+                return ICheckComponent;
             }());
-            exports_1("HighlightDirective", HighlightDirective);
+            exports_1("ICheckComponent", ICheckComponent);
         }
     }
 });
-System.register("ng2-icheck.module", ['@angular/core', '@angular/common', "ng2-icheck.directive"], function(exports_2, context_2) {
+System.register("ng2-icheck.module", ['@angular/core', '@angular/common', "ng2-icheck.component"], function(exports_2, context_2) {
     "use strict";
     var __moduleName = context_2 && context_2.id;
-    var core_2, common_1, ng2_icheck_directive_1;
+    var core_2, common_1, ng2_icheck_component_1;
     var Ng2ICheckModule;
     return {
         setters:[
@@ -47,10 +49,10 @@ System.register("ng2-icheck.module", ['@angular/core', '@angular/common', "ng2-i
             function (common_1_1) {
                 common_1 = common_1_1;
             },
-            function (ng2_icheck_directive_1_1) {
-                ng2_icheck_directive_1 = ng2_icheck_directive_1_1;
+            function (ng2_icheck_component_1_1) {
+                ng2_icheck_component_1 = ng2_icheck_component_1_1;
                 exports_2({
-                    "HighlightDirective": ng2_icheck_directive_1_1["HighlightDirective"]
+                    "ICheckComponent": ng2_icheck_component_1_1["ICheckComponent"]
                 });
             }],
         execute: function() {
@@ -61,11 +63,11 @@ System.register("ng2-icheck.module", ['@angular/core', '@angular/common', "ng2-i
                     core_2.NgModule({
                         imports: [common_1.CommonModule],
                         declarations: [
-                            ng2_icheck_directive_1.HighlightDirective,
+                            ng2_icheck_component_1.ICheckComponent,
                         ],
                         providers: [],
                         exports: [
-                            ng2_icheck_directive_1.HighlightDirective
+                            ng2_icheck_component_1.ICheckComponent
                         ]
                     }), 
                     __metadata('design:paramtypes', [])

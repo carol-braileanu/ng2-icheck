@@ -1,18 +1,18 @@
 "use strict";
 var core_1 = require('@angular/core');
-var HighlightDirective = (function () {
-    function HighlightDirective(el) {
+var ICheckDirective = (function () {
+    function ICheckDirective(el) {
         el.nativeElement.style.backgroundColor = 'yellow';
     }
-    HighlightDirective.decorators = [
+    ICheckDirective.decorators = [
         { type: core_1.Directive, args: [{
-                    selector: '[myHighlight]'
+                    selector: '[iCheck]'
                 },] },
     ];
     /** @nocollapse */
-    HighlightDirective.ctorParameters = function () { return [
+    ICheckDirective.ctorParameters = function () { return [
         { type: core_1.ElementRef, },
     ]; };
-    return HighlightDirective;
+    return ICheckDirective;
 }());
-exports.HighlightDirective = HighlightDirective;
+exports.ICheckDirective = ICheckDirective;

@@ -1,9 +1,9 @@
 "use strict";
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
-var ng2_icheck_directive_1 = require('./ng2-icheck.directive');
-var ng2_icheck_directive_2 = require('./ng2-icheck.directive');
-exports.HighlightDirective = ng2_icheck_directive_2.HighlightDirective;
+var ng2_icheck_component_1 = require('./ng2-icheck.component');
+var ng2_icheck_component_2 = require('./ng2-icheck.component');
+exports.ICheckComponent = ng2_icheck_component_2.ICheckComponent;
 var Ng2ICheckModule = (function () {
     function Ng2ICheckModule() {
     }
@@ -11,11 +11,11 @@ var Ng2ICheckModule = (function () {
         { type: core_1.NgModule, args: [{
                     imports: [common_1.CommonModule],
                     declarations: [
-                        ng2_icheck_directive_1.HighlightDirective,
+                        ng2_icheck_component_1.ICheckComponent,
                     ],
                     providers: [],
                     exports: [
-                        ng2_icheck_directive_1.HighlightDirective
+                        ng2_icheck_component_1.ICheckComponent
                     ]
                 },] },
     ];

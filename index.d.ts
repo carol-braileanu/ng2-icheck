@@ -1,1 +1,1 @@
-export * from './src/ng2-icheck.module';
+export * from './dist/ng2-icheck.module';

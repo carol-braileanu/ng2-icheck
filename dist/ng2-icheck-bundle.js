@@ -23,7 +23,6 @@ System.register("ng2-icheck.component", ['@angular/core'], function(exports_1, c
                 }
                 ICheckComponent = __decorate([
                     core_1.Component({
-                        moduleId: module.id,
                         selector: '[iCheck]',
                         templateUrl: './ng2-icheck.html',
                         styleUrls: ['./ng2-icheck.css']

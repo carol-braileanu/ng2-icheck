@@ -5,7 +5,6 @@ var ICheckComponent = (function () {
     }
     ICheckComponent.decorators = [
         { type: core_1.Component, args: [{
-                    moduleId: module.id,
                     selector: '[iCheck]',
                     templateUrl: './ng2-icheck.html',
                     styleUrls: ['./ng2-icheck.css']

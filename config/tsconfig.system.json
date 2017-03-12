@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "target": "es5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "outFile": "../dist/ng2-icheck-bundle.js"
+  },
+  "files": [
+    "../src/ng2-icheck.module.ts"
+  ]
+}

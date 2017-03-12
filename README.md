@@ -1,3 +1,2 @@
-# angular-icheck
-a icheck directive like jQuery iCheck for angularjs
-demo is at index.html
+# ng2-icheck
+A icheck directive like jQuery iCheck for angular 2

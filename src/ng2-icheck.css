@@ -9,7 +9,7 @@ body {
   height: 22px;
   display: inline-block;
   vertical-align: middle;
-  background: url("angular-icheck.png") no-repeat left;
+  background: url('angular-icheck.png') no-repeat left;
 }
 .angular-icheck .checkbox.checked {
   background-position: -48px 0;

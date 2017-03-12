@@ -3,11 +3,10 @@ import { Component } from '@angular/core';
 @Component({
     selector: '[iCheck]',
     template: `
-        <!--<div (click)="isChecked = !isChecked;" class="ng2-icheck">-->
-            <!--<div [class.checked]="isChecked"></div>-->
-            <!--&lt;!&ndash;<ng-content class="label"></ng-content>&ndash;&gt;-->
-        <!--</div>-->
-        <div>ciao</div>
+        <div (click)="isChecked = !isChecked;" class="ng2-icheck">
+            <div [class.checked]="isChecked"></div>
+            <!--<ng-content class="label"></ng-content>-->
+        </div>
     `,
     styles: [
         `

@@ -4,8 +4,8 @@
   "description": "A icheck directive for angular 2 like jQuery iCheck.",
   "main": "index.js",
   "scripts": {
-    "build:system": "tsc -p config/tsconfig.system.json && cp src/ng2-icheck.png dist",
-    "build:cjs": "ngc -p config/tsconfig.cjs.json && cp src/ng2-icheck.png dist",
+    "build:system": "tsc -p config/tsconfig.system.json",
+    "build:cjs": "ngc -p config/tsconfig.cjs.json",
     "build": "npm run build:cjs && npm run build:system",
     "test": "karma start config/karma.conf.js",
     "test:watch": "npm run test -- --auto-watch --no-single-run",

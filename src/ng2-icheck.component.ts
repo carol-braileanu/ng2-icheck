@@ -14,10 +14,24 @@ import {Component} from '@angular/core';
         display: inline-block;
         vertical-align: middle;
         background: url('https://cdn.rawgit.com/fronteed/icheck/1.x/skins/square/blue.png') no-repeat left;
+        background-position: 0 0;
     }
+  `,`
+    :host > div > div:hover {
+        background-position: -24px 0;
+    }
+  `,`
+    :host > div > div.disabled {
+        background-position: -72px 0;
+        cursor: default;
+    }    
   `,`
     :host > div > div.checked {
         background-position: -48px 0;
+    }
+  `,`
+    :host > div > div.checked.disabled {
+        background-position: -96px 0;
     }
   `,`
     :host .label {

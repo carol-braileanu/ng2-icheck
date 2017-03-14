@@ -11,24 +11,22 @@ System.register("ng2-icheck.component", ['@angular/core'], function(exports_1, c
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var core_1;
-    var image, ICheckComponent;
+    var ICheckComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            image = require('/dist/ng2-icheck.png');
             ICheckComponent = (function () {
                 function ICheckComponent() {
                     this.isChecked = false;
-                    this.imageUrl = image;
                 }
                 ICheckComponent = __decorate([
                     core_1.Component({
                         selector: '[iCheck]',
-                        styles: ["\n    :host {\n        font-family: \"Consolas\", \"Microsoft YaHei\", Arial, arial, sans-serif;\n        overflow: hidden;\n    }\n  ", "\n    :host > div {\n        width: 22px;\n        height: 22px;\n        display: inline-block;\n        vertical-align: middle;\n    }\n  ", "\n    :host .checked {\n        background-position: -48px 0;\n    }\n  ", "\n    :host .label {\n        display: inline-block;\n        vertical-align: middle;\n    }\n  "],
-                        template: "\n    <div (click)=\"isChecked = !isChecked;\" class=\"ng2-icheck\">\n        <div [ngStyle]=\"{ 'background-image': 'url(' + imageUrl + ') no-repeat left'}\" [class.checked]=\"isChecked\"></div>\n        <!--<ng-content class=\"label\"></ng-content>-->\n    </div>\n  "
+                        styles: ["\n    :host {\n        font-family: \"Consolas\", \"Microsoft YaHei\", Arial, arial, sans-serif;\n        overflow: hidden;\n    }\n  ", "\n    :host > div {\n        width: 22px;\n        height: 22px;\n        display: inline-block;\n        vertical-align: middle;\n        background: url('https://cdn.rawgit.com/fronteed/icheck/1.x/skins/square/blue.png') no-repeat left;\n    }\n  ", "\n    :host .checked {\n        background-position: -48px 0;\n    }\n  ", "\n    :host .label {\n        display: inline-block;\n        vertical-align: middle;\n    }\n  "],
+                        template: "\n    <div (click)=\"isChecked = !isChecked;\" class=\"ng2-icheck\">\n        <div [class.checked]=\"isChecked\"></div>\n        <!--<ng-content class=\"label\"></ng-content>-->\n    </div>\n  "
                     }), 
                     __metadata('design:paramtypes', [])
                 ], ICheckComponent);

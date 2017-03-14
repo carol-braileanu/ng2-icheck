@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-const image = require('/dist/ng2-icheck.png');
 
 @Component({
     selector: '[iCheck]',
@@ -14,6 +13,7 @@ const image = require('/dist/ng2-icheck.png');
         height: 22px;
         display: inline-block;
         vertical-align: middle;
+        background: url('https://cdn.rawgit.com/fronteed/icheck/1.x/skins/square/blue.png') no-repeat left;
     }
   `,`
     :host .checked {
@@ -27,7 +27,7 @@ const image = require('/dist/ng2-icheck.png');
   `],
     template: `
     <div (click)="isChecked = !isChecked;" class="ng2-icheck">
-        <div [ngStyle]="{ 'background-image': 'url(' + imageUrl + ') no-repeat left'}" [class.checked]="isChecked"></div>
+        <div [class.checked]="isChecked"></div>
         <!--<ng-content class="label"></ng-content>-->
     </div>
   `
@@ -35,7 +35,6 @@ const image = require('/dist/ng2-icheck.png');
 
 export class ICheckComponent {
     isChecked: boolean = false;
-    imageUrl: string = image;
     constructor() {
 
     }

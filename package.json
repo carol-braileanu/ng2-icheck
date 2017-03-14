@@ -1,6 +1,6 @@
 {
   "name": "ng2-icheck",
-  "version": "2.0.12",
+  "version": "2.1.0",
   "description": "A icheck directive for angular 2 like jQuery iCheck.",
   "main": "index.js",
   "scripts": {
@@ -32,9 +32,7 @@
     "url": "https://github.com/tommasomarchionni/ng2-icheck/issues"
   },
   "homepage": "https://github.com/tommasomarchionni/ng2-icheck#readme",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "@angular/common": "^2.4.3",
     "@angular/compiler": "^2.4.3",

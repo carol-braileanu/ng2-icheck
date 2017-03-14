@@ -8,7 +8,7 @@ import {Component} from '@angular/core';
         overflow: hidden;
     }
   `,`
-    :host > div {
+    :host > div > div {
         width: 22px;
         height: 22px;
         display: inline-block;
@@ -16,7 +16,7 @@ import {Component} from '@angular/core';
         background: url('https://cdn.rawgit.com/fronteed/icheck/1.x/skins/square/blue.png') no-repeat left;
     }
   `,`
-    :host .checked {
+    :host > div > div.checked {
         background-position: -48px 0;
     }
   `,`

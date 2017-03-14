@@ -9,8 +9,8 @@ import {Component} from '@angular/core';
     }
   `,`
     :host > div > div {
-        width: 22px;
-        height: 22px;
+        width: 24px;
+        height: 24px;
         display: inline-block;
         vertical-align: middle;
         background: url('https://cdn.rawgit.com/fronteed/icheck/1.x/skins/square/blue.png') no-repeat left;
@@ -28,7 +28,7 @@ import {Component} from '@angular/core';
     template: `
     <div (click)="isChecked = !isChecked;" class="ng2-icheck">
         <div [class.checked]="isChecked"></div>
-        <!--<ng-content class="label"></ng-content>-->
+        <ng-content class="label"></ng-content>
     </div>
   `
 })

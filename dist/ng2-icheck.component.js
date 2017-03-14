@@ -1,6 +1,6 @@
 "use strict";
 var core_1 = require('@angular/core');
-var image = require('./ng2-icheck.png');
+var image = require('/dist/ng2-icheck.png');
 var ICheckComponent = (function () {
     function ICheckComponent() {
         this.isChecked = false;

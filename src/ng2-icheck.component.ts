@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-const image = require('./ng2-icheck.png');
+const image = require('/dist/ng2-icheck.png');
 
 @Component({
     selector: '[iCheck]',

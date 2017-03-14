@@ -18,7 +18,7 @@ System.register("ng2-icheck.component", ['@angular/core'], function(exports_1, c
                 core_1 = core_1_1;
             }],
         execute: function() {
-            image = require('./ng2-icheck.png');
+            image = require('/dist/ng2-icheck.png');
             ICheckComponent = (function () {
                 function ICheckComponent() {
                     this.isChecked = false;

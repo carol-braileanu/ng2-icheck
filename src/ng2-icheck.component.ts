@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 
 @Component({
-    selector: 'iCheck',
+    selector: '[iCheck]',
     styles: [`
     :host {
         font-family: "Consolas", "Microsoft YaHei", Arial, arial, sans-serif;

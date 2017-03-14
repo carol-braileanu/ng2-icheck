@@ -1,14 +1,14 @@
 import {Component} from '@angular/core';
 
 @Component({
-    selector: 'ichecked',
+    selector: 'iCheck',
     styles: [`
     :host {
         font-family: "Consolas", "Microsoft YaHei", Arial, arial, sans-serif;
         overflow: hidden;
     }
   `,`
-    :host .checkbox {
+    :host > div {
         width: 22px;
         height: 22px;
         display: inline-block;
@@ -16,7 +16,7 @@ import {Component} from '@angular/core';
         background: url('ng2-icheck.png') no-repeat left;
     }
   `,`
-    :host .checkbox.checked {
+    :host .checked {
         background-position: -48px 0;
     }
   `,`

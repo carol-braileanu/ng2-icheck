@@ -1,6 +1,6 @@
 {
   "name": "ng2-icheck",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A icheck directive for angular 2 like jQuery iCheck.",
   "main": "index.js",
   "scripts": {

@@ -1,4 +1,4 @@
 export declare class ICheckComponent {
-    isChecked: false;
+    isChecked: boolean;
     constructor();
 }

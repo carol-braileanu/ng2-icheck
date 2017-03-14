@@ -15,6 +15,7 @@ import {Component} from '@angular/core';
         vertical-align: middle;
         background: url('https://cdn.rawgit.com/fronteed/icheck/1.x/skins/square/blue.png') no-repeat left;
         background-position: 0 0;
+        cursor: pointer;
     }
   `,`
     :host > div > div:hover {

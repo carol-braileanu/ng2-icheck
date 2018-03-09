@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
     selector: '[iCheck]',
@@ -49,7 +49,8 @@ import {Component} from '@angular/core';
 })
 
 export class ICheckComponent {
-    isChecked: boolean = false;
+    @Input()
+	isChecked: boolean = false;
     constructor() {
 
     }

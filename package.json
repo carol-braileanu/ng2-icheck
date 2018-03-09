@@ -1,5 +1,5 @@
 {
-  "name": "ng2-icheck",
+  "name": "flowconcept-icheck",
   "version": "2.1.7",
   "description": "A icheck directive for angular 2 like jQuery iCheck.",
   "main": "index.js",
